@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #364f7a;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.biblioteca.LoanController">
+   <children>
+      <AnchorPane layoutX="201.0" layoutY="91.0" prefHeight="474.0" prefWidth="402.0" style="-fx-background-color: #c8e1fa;">
+         <children>
+            <Label layoutX="110.0" layoutY="139.0" text="Nombre de libro:">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font></Label>
+            <Label layoutX="155.0" layoutY="254.0" text="ID Libro:">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font></Label>
+            <Button fx:id="btn_prestar" layoutX="126.0" layoutY="388.0" mnemonicParsing="false" onAction="#click_prestar" prefHeight="46.0" prefWidth="150.0" style="-fx-background-color: #F98D41;" text="Prestar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font></Button>
+            <TextField fx:id="txt_nombre" layoutX="99.0" layoutY="185.0" prefHeight="42.0" prefWidth="207.0" />
+            <TextField fx:id="txt_id" layoutX="99.0" layoutY="300.0" prefHeight="42.0" prefWidth="207.0" />
+            <ImageView fitHeight="117.0" fitWidth="159.0" layoutX="144.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/images.jpg" />
+               </image>
+            </ImageView>
+
+         </children>
+      </AnchorPane>
+      <Label layoutX="328.0" layoutY="22.0" text="Book Loan" textFill="#fffcfc">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_exit" layoutX="684.0" layoutY="23.0" mnemonicParsing="false" onAction="#On_Click_exit" prefHeight="41.0" prefWidth="101.0" style="-fx-background-color: #F98D41;" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+         <cursor>
+
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

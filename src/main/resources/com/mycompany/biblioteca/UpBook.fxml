@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #364f7a;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.biblioteca.UpBookController">
+   <children>
+      <Label layoutX="340.0" layoutY="21.0" text="New Book" textFill="#fcfcfc">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="31.0" />
+         </font></Label>
+      <Label layoutX="261.0" layoutY="189.0" text="Titule:" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font></Label>
+      <Label layoutX="512.0" layoutY="288.0" text="Category:" textFill="#f4f4f4">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font></Label>
+      <Label layoutX="512.0" layoutY="188.0" prefHeight="18.0" prefWidth="81.0" text="Author:" textFill="#f4f4f4">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font></Label>
+      <Label layoutX="257.0" layoutY="394.0" text="Edition:" textFill="#f4f2f2">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font></Label>
+      <Label layoutX="536.0" layoutY="394.0" text="Editorial:" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font></Label>
+      <Label layoutX="235.0" layoutY="288.0" text="Publication day:" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font></Label>
+      <TextField fx:id="txt_editorial" layoutX="452.0" layoutY="435.0" prefHeight="42.0" prefWidth="214.0" />
+      <TextField fx:id="txt_edition" layoutX="169.0" layoutY="435.0" prefHeight="42.0" prefWidth="214.0" />
+      <TextField fx:id="txt_author" layoutX="446.0" layoutY="219.0" prefHeight="42.0" prefWidth="214.0" />
+      <TextField fx:id="txt_titule" layoutX="170.0" layoutY="219.0" prefHeight="42.0" prefWidth="222.0" />
+      <Button layoutX="338.0" layoutY="523.0" mnemonicParsing="false" onAction="#On_Click_Addbook" prefHeight="46.0" prefWidth="171.0" style="-fx-background-color: #F98D41;" text="Add Book" textFill="#fffafa">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font></Button>
+      <ChoiceBox fx:id="txt_book_category" layoutX="448.0" layoutY="323.0" prefHeight="42.0" prefWidth="214.0" />
+      <DatePicker fx:id="txt_publicationday" layoutX="169.0" layoutY="327.0" prefHeight="42.0" prefWidth="214.0" />
+      <Button layoutX="703.0" layoutY="25.0" mnemonicParsing="false" onAction="#On_Click_Exit" prefHeight="26.0" prefWidth="74.0" style="-fx-background-color: #F98D41;" text="Exit" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+         <cursor>
+          
+         </cursor>
+      </Button>
+      <Label layoutX="274.0" layoutY="124.0" text="Idbook:" textFill="#fcfafa">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_idbook" layoutX="354.0" layoutY="117.0" prefHeight="42.0" prefWidth="222.0" />
+   </children>
+</AnchorPane>

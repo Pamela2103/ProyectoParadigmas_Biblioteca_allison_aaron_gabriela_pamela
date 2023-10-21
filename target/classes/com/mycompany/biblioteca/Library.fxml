@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #364f7a;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.biblioteca.LibraryController">
+   <children>
+      <AnchorPane layoutY="2.0" prefHeight="593.0" prefWidth="162.0">
+         <children>
+            <Button layoutX="25.0" layoutY="83.0" mnemonicParsing="false" onAction="#On_Click_Main" prefHeight="22.0" prefWidth="158.0" style="-fx-background-color: #F98D41;" text="Main" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+               <cursor>
+                 
+               </cursor>
+            </Button>
+            <Button layoutX="25.0" layoutY="237.0" mnemonicParsing="false" onAction="#On_Click_loan" prefHeight="16.0" prefWidth="158.0" style="-fx-background-color: #F98D41;" text="Loan" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+               <cursor>
+              
+               </cursor>
+            </Button>
+            <Button layoutX="25.0" layoutY="292.0" mnemonicParsing="false" onAction="#On_Click_Devolution" prefHeight="18.0" prefWidth="158.0" style="-fx-background-color: #F98D41;" text="Devolution" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+               <cursor>
+               
+               </cursor>
+            </Button>
+            <Button layoutX="25.0" layoutY="186.0" mnemonicParsing="false" onAction="#On_Click_Book" prefHeight="14.0" prefWidth="158.0" style="-fx-background-color: #F98D41;" text="Books" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+               <cursor>
+           
+               </cursor>
+            </Button>
+            <Button layoutX="27.0" layoutY="397.0" mnemonicParsing="false" onAction="#On_Click_Users" prefHeight="24.0" prefWidth="158.0" style="-fx-background-color: #F98D41;" text="Users" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+               <cursor>
+               
+               </cursor>
+            </Button>
+            <Label layoutX="41.0" layoutY="14.0" prefHeight="51.0" prefWidth="126.0" text="Library" textFill="WHITE">
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="27.0" />
+               </font>
+            </Label>
+            <Separator layoutX="200.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="600.0" prefWidth="9.0" />
+            <Button layoutX="25.0" layoutY="537.0" mnemonicParsing="false" onAction="#On_Click_Exit" prefHeight="16.0" prefWidth="158.0" style="-fx-background-color: #F98D41;" text="Exit" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+               <cursor>
+               
+               </cursor>
+            </Button>
+            <Button layoutX="27.0" layoutY="448.0" mnemonicParsing="false" onAction="#On_Click_Reports" prefHeight="15.0" prefWidth="158.0" style="-fx-background-color: #F98D41;" text="Reports" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+               <cursor>
+                
+               </cursor>
+            </Button>
+            <Button layoutX="25.0" layoutY="345.0" mnemonicParsing="false" onAction="#On_Click_AddUsers" prefHeight="24.0" prefWidth="158.0" style="-fx-background-color: #F98D41;" text="Add Users" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+               <cursor>
+                
+               </cursor>
+            </Button>
+            <Button layoutX="25.0" layoutY="134.0" mnemonicParsing="false" onAction="#On_Click_AddBooks" prefHeight="24.0" prefWidth="158.0" style="-fx-background-color: #F98D41;" text="Add Books" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+               <cursor>
+                  
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="369.0" layoutY="32.0" prefHeight="74.0" prefWidth="249.0" text="Welcome" textFill="WHITE">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="48.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="365.0" fitWidth="555.0" layoutX="218.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/Libreria2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
